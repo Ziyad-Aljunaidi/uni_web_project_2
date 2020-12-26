@@ -52,10 +52,18 @@ ul{
 
 
 .btn-link{
+    padding-top: 16px;
     margin: 0 auto;
     width: 400px;
     height: 70px;
     background-color: rgb(255, 73, 103);
+}
+
+.btn-link a:link, a:hover, a:visited, a:active{
+    font-size: 22px;
+    color: white;
+    font-weight: bold;
+
 }
 
 
@@ -72,6 +80,3 @@ ul{
     padding-top: 13px;
 }
 
-#ha{
-    text-decoration: none !important;
-}
