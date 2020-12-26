@@ -1,3 +1,77 @@
-h1{
-    color: red;
+ul{
+    list-style-type: none;
+}
+
+.nav-item a{
+    font-weight: bold;
+    color: white;
+}
+
+.nav-item a:hover{
+    font-weight: normal;
+    color: rgb(255, 194, 194);
+}
+
+#nav-bar-color {
+    background-color: rgb(255, 73, 103);
+}
+
+.jumbotron-fluid{
+    height: 650px;
+    text-align: center;
+    color: white;
+    background-image: url("cover.png");
+    background-size: cover;
+}
+
+.jumbotron-fluid h1{
+    padding-top: 120px;
+    font-size: 72px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.jumbotron-fluid h5{
+    padding-top: 80px;
+    font-size: 35px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.jumbotron-fluid p{
+    padding-top: 30px;
+    font-size: 25px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.bullet{
+    padding-top: 10px;
+}
+
+
+
+.btn-link{
+    margin: 0 auto;
+    width: 400px;
+    height: 70px;
+    background-color: rgb(255, 73, 103);
+}
+
+
+.arrow-down-ar{
+    margin: auto;
+    width: 0; 
+    height: 0; 
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-top: 20px solid rgb(255, 73, 103);
+}
+
+.whole-btn{
+    padding-top: 13px;
+}
+
+#ha{
+    text-decoration: none !important;
 }
