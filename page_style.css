@@ -2,6 +2,7 @@ ul{
     list-style-type: none;
 }
 
+
 .nav-item a{
     font-weight: bold;
     color: white;
@@ -49,8 +50,6 @@ ul{
     padding-top: 10px;
 }
 
-
-
 .btn-link{
     padding-top: 16px;
     margin: 0 auto;
@@ -63,9 +62,7 @@ ul{
     font-size: 22px;
     color: white;
     font-weight: bold;
-
 }
-
 
 .arrow-down-ar{
     margin: auto;
@@ -77,5 +74,26 @@ ul{
 }
 
 .whole-btn{
-    padding-top: 13px;
+    padding-top: 14px;
+    margin: 0 auto;
+    z-index: 1;
+    position:relative;
+}
+
+.long-btn{
+    text-align: center;
+}
+
+.btn-link-2{
+    padding-top: 10px;
+    margin: 0 auto;
+    width: 100%;
+    height: 60px;
+    background-color: rgb(255, 73, 103);
+}
+
+.btn-link-2 a:link, a:hover, a:visited, a:active{
+    font-size: 22px;
+    color: white;
+    font-weight: bold;
 }
