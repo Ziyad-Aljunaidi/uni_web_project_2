@@ -23,13 +23,11 @@ h3{
 }
 
 .nav-item a{
-    font-weight: bold;
     color: white;
     text-decoration: none !important;
 }
 
 .nav-item a:hover{
-    font-weight: normal;
     color: rgb(255, 194, 194);
 }
 
@@ -76,12 +74,6 @@ h3{
     text-decoration: none !important;
 }
 
-.btn-link a:link, a:hover, a:visited, a:active{
-    font-size: 22px;
-    color: white;
-    font-weight: bold;
-    text-decoration: none !important;
-}
 
 .arrow-down-ar{
     margin: auto;
@@ -115,12 +107,7 @@ h3{
     font-size: 22px;
 }
 
-.btn-link-2 a:link, a:hover, a:visited, a:active{
-    font-size: 22px;
-    color: white;
-    font-weight: bold;
 
-}
 
 .background-cl{
     background-color: transparent;
