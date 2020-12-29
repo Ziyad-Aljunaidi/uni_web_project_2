@@ -66,6 +66,14 @@ h3{
     font-style: italic;
 }
 
+.dot {
+    height: 8px;
+    width: 8px;
+    margin: 10px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+    display: inline-block;
+}
 
 .btn-link{
     font-size: 22px;
@@ -164,15 +172,6 @@ h3{
     background-image: url("used images/Cover_2.jpg");
     background-size: cover;
     color: white;
-}
-
-.dot {
-    height: 8px;
-    width: 8px;
-    margin: 10px;
-    background-color: rgb(255, 255, 255);
-    border-radius: 50%;
-    display: inline-block;
 }
 
 .limit{
