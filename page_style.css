@@ -160,6 +160,7 @@ h3{
 }
 
 #contact-us span{
+    cursor: pointer;
     font-size: 18px;
     font-weight: normal;
     color: white;
