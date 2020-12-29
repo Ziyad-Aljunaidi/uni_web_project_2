@@ -29,8 +29,8 @@ h3{
 }
 
 .nav-item a:hover{
-    font-weight: normal;
-    color: rgb(255, 194, 194);
+    font-weight: bold;
+    color: rgb(0, 0, 0);
 }
 
 #nav-bar-color {
@@ -68,6 +68,7 @@ h3{
 
 
 .btn-link{
+    font-size: 22px;
     padding-top: 16px;
     margin: 0 auto;
     width: 400px;
@@ -76,9 +77,14 @@ h3{
     text-decoration: none !important;
 }
 
-.btn-link a:link, a:hover, a:visited, a:active{
-    font-size: 22px;
-    color: white;
+.btn-link a{
+    color: white !important;
+    font-weight: bold;
+    text-decoration: none !important;
+}
+
+.btn-link a:hover{
+    color: black !important;
     font-weight: bold;
     text-decoration: none !important;
 }
@@ -105,7 +111,7 @@ h3{
     position:relative;
 }
 
-.btn-link-2{
+.msg{
     padding-top: 10px;
     margin: 0 auto;
     width: 100%;
@@ -113,13 +119,6 @@ h3{
     background-color:#FF0048;
     color: white;
     font-size: 22px;
-}
-
-.btn-link-2 a:link, a:hover, a:visited, a:active{
-    font-size: 22px;
-    color: white;
-    font-weight: bold;
-
 }
 
 .background-cl{
